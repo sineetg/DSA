@@ -10,7 +10,9 @@ public class PriorityQuueueds {
         queue.offer(2.0);
         queue.offer(3.1);
 
-        System.out.println(queue);
+        while (! queue.isEmpty()) {
+            System.out.println(queue.poll());
+        }
 
         System.out.println(queue.poll());
 
