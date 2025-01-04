@@ -12,7 +12,11 @@ public class Stackds {
         stack.push("Borderlands");
         stack.push("FFVII");
 
+        stack.pop();
         System.out.println(stack);
+
+        String faveGame = stack.peek();
+        System.out.println(faveGame);
 }
     }
     
